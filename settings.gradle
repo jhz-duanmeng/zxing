@@ -1,1 +1,2 @@
-include ':app', ':zxinglibrary'
+include ':app', ':zxinglibrary', ':zixing'
+include ':d2xx'

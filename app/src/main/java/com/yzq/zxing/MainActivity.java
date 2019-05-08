@@ -101,7 +101,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Bitmap bitmap = null;
         switch (v.getId()) {
             case R.id.scanBtn:
-
                 AndPermission.with(this)
                         .permission(Permission.CAMERA, Permission.READ_EXTERNAL_STORAGE)
                         .onGranted(new Action() {
